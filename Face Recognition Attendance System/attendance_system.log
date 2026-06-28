@@ -1,0 +1,82 @@
+2026-06-28 16:57:57,855 - FaceAttendance - ERROR - Fatal error
+Traceback (most recent call last):
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3325, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3299, in main
+    splash = SplashScreen()
+             ^^^^^^^^^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3272, in __init__
+    painter.drawPixmap(210, 60, icon_pix)
+TypeError: 'PySide6.QtGui.QPainter.drawPixmap' called with wrong argument types:
+  PySide6.QtGui.QPainter.drawPixmap(int, int, QPixmap)
+Supported signatures:
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPoint, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPoint, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sr: PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(r: PySide6.QtCore.QRect, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(targetRect: PySide6.QtCore.QRect, pixmap: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sourceRect: PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(targetRect: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, pixmap: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sourceRect: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPointF | PySide6.QtCore.QPoint | PySide6.QtGui.QPainterPath.Element, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPointF | PySide6.QtCore.QPoint | PySide6.QtGui.QPainterPath.Element, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sr: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sx: int, sy: int, sw: int, sh: int, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, w: int, h: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, w: int, h: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sx: int, sy: int, sw: int, sh: int, /)
+2026-06-28 17:08:45,652 - FaceAttendance - ERROR - Fatal error
+Traceback (most recent call last):
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3325, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3299, in main
+    splash = SplashScreen()
+             ^^^^^^^^^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3272, in __init__
+    painter.drawPixmap(QPoint(210, 60), icon_pix)
+TypeError: 'PySide6.QtGui.QPainter.drawPixmap' called with wrong argument types:
+  PySide6.QtGui.QPainter.drawPixmap(QPoint, QPixmap)
+Supported signatures:
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPoint, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPoint, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sr: PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(r: PySide6.QtCore.QRect, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(targetRect: PySide6.QtCore.QRect, pixmap: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sourceRect: PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(targetRect: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, pixmap: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sourceRect: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPointF | PySide6.QtCore.QPoint | PySide6.QtGui.QPainterPath.Element, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(p: PySide6.QtCore.QPointF | PySide6.QtCore.QPoint | PySide6.QtGui.QPainterPath.Element, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sr: PySide6.QtCore.QRectF | PySide6.QtCore.QRect, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sx: int, sy: int, sw: int, sh: int, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, w: int, h: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+  PySide6.QtGui.QPainter.drawPixmap(x: int, y: int, w: int, h: int, pm: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, sx: int, sy: int, sw: int, sh: int, /)
+2026-06-28 17:09:39,990 - FaceAttendance - ERROR - Fatal error
+Traceback (most recent call last):
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3363, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3336, in main
+    splash = SplashScreen()
+             ^^^^^^^^^^^^^^
+  File "E:\Face Recognition Attendance System\face_attendance.py", line 3284, in __init__
+    icon_label.setPixmap(qta.icon('fa5s.fingerprint', color='white').pixmap(80, 80))
+TypeError: 'PySide6.QtWidgets.QLabel.setPixmap' called with wrong argument types:
+  PySide6.QtWidgets.QLabel.setPixmap(QPixmap)
+Supported signatures:
+  PySide6.QtWidgets.QLabel.setPixmap(arg__1: PySide6.QtGui.QPixmap | PySide6.QtGui.QImage, /)
+2026-06-28 17:26:59,336 - FaceAttendance - INFO - LBPH trained on 4 faces across 1 students
+2026-06-28 17:27:03,916 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:27:24,280 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:27:41,269 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:33:45,292 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:36:53,742 - FaceAttendance - INFO - LBPH trained on 4 faces across 1 students
+2026-06-28 17:36:57,263 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:39:35,651 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:42:23,489 - FaceAttendance - INFO - LBPH auto-trained on 4 faces
+2026-06-28 17:44:37,470 - FaceAttendance - INFO - LBPH trained on 5 faces across 1 students
+2026-06-28 17:44:44,573 - FaceAttendance - INFO - LBPH auto-trained on 5 faces
+2026-06-28 17:45:41,599 - FaceAttendance - WARNING - mark_attendance: unknown student_id '2301205' - skipped
+2026-06-28 17:45:51,491 - FaceAttendance - WARNING - mark_attendance: unknown student_id '2301205' - skipped
+2026-06-28 17:45:56,531 - FaceAttendance - WARNING - mark_attendance: unknown student_id '2301205' - skipped
+2026-06-28 17:48:10,497 - FaceAttendance - INFO - LBPH trained on 5 faces across 1 students
+2026-06-28 17:48:13,458 - FaceAttendance - INFO - LBPH auto-trained on 5 faces
+2026-06-28 17:49:48,610 - FaceAttendance - INFO - LBPH auto-trained on 5 faces
+2026-06-28 17:50:01,554 - FaceAttendance - INFO - LBPH auto-trained on 5 faces
+2026-06-28 18:01:21,184 - FaceAttendance - INFO - LBPH trained on 5 faces across 1 students
+2026-06-28 18:01:25,866 - FaceAttendance - INFO - LBPH auto-trained on 5 faces
